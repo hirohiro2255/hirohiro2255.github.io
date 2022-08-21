@@ -26,6 +26,7 @@ body {
   height: 240px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  background-size: cover;
 }
 
 .text-container {
@@ -112,7 +113,6 @@ body {
   .product-img {
     width: 300px;
     height: 100%;
-    object-fit: cover;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
   }
@@ -132,6 +132,7 @@ body {
   }
 
   .heading {
+    font-weight: bold;
     margin-top: 20px;
     margin-left: 32px;
     margin-right: 32px;
