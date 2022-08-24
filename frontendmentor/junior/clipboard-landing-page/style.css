@@ -84,6 +84,7 @@ body {
   border: 1px solid var(--primary-strong-cyan);
   color: var(--primary-strong-cyan);
   transition: .2s ease-out;
+  cursor: pointer;
 }
 
 .download-mac-btn {
@@ -95,6 +96,7 @@ body {
   background-color: rgba(255,255,255,.1);
   color: var(--primary-light-blue);
   transition: .2s ease-out;
+  cursor: pointer;
 }
 
 
