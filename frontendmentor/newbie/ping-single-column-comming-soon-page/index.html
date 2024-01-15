@@ -11,14 +11,23 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="sanitize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/sanitize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
 
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body>
     <main id="app"></main>
-    <script src="build/dist.js"></script>
+    <script src="build/dist.dev.js"></script>
+    <!-- <script src="build/dist.prod.js"></script> -->
     <script>
       Elm.Main.init({
         node: document.querySelector('#app'),
