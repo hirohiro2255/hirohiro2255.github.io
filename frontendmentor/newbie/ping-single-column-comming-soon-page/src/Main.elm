@@ -38,6 +38,6 @@ main : Html msg
 main =
     main_ [ class "container" ]
         [ viewHero
-        , div [ class "img-section" ] [ img [ src "../src/assets/illustration-dashboard.png", alt "hero image", class "hero-img" ] [] ]
+        , div [ class "img-section" ] [ img [ src "/../assets/illustration-dashboard.png", alt "hero image", class "hero-img" ] [] ]
         , viewFooter
         ]

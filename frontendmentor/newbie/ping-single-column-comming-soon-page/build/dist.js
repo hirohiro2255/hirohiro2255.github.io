@@ -4808,7 +4808,7 @@ var $author$project$Main$main = A2(
 					$elm$html$Html$img,
 					_List_fromArray(
 						[
-							$elm$html$Html$Attributes$src('../src/assets/illustration-dashboard.png'),
+							$elm$html$Html$Attributes$src('/assets/illustration-dashboard.png'),
 							$elm$html$Html$Attributes$alt('hero image'),
 							$elm$html$Html$Attributes$class('hero-img')
 						]),
